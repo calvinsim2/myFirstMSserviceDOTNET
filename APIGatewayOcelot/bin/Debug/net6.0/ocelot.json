@@ -1,0 +1,16 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Game",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7258"
+        }
+      ],
+      "UpstreamPathTemplate": "/Game",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ]
+}
